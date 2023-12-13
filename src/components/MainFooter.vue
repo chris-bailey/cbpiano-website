@@ -2,11 +2,11 @@
     <footer>
         <hr />
         <div id="footerLeft">
-            <p>Copyright &copy; 2023 Chris Bailey Productions</p>
+            <p>Copyright &copy; {{ currentYear }} Chris Bailey Productions</p>
         </div>
         <div id="footerRight">
-            <router-link to="/privacy">Privacy Policy</router-link> &nbsp; | &nbsp;<router-link
-                to="/sitemap">Sitemap</router-link>
+            <router-link to="/privacy">Privacy Policy</router-link> &nbsp; | &nbsp;
+            <router-link to="/sitemap">Sitemap</router-link>
         </div>
     </footer>
 </template>
@@ -14,6 +14,11 @@
 <script>
 export default {
     name: 'MainFooter',
+    data() {
+        return {
+            currentYear: new Date().getFullYear()
+        };
+    }
 }
 </script>
 
