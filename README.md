@@ -17,24 +17,6 @@ Vue Router does the heavy lifting when it comes to page navigation without page 
 ### Sass (Syntactically Awesome Style Sheets)
 [Sass](https://sass-lang.com) is a CSS pre-processor, and it helps you to write cleaner and more maintainable CSS.
 
-## Project Setup and Running
-### Development Mode
-To run the project in development mode:
-```bash
-npm install
-npm run serve
-```
-### Production Build
-To package the project for production:
-```bash
-npm run build
-```
-
-This will generate a `dist` directory with static assets, which can be deployed on any web server.
-
-### Deployment
-This project is statically deployed using **NGINX**, which serves the `index.html` page and related assets. I choose NGINX since it can handle clean URL routing when using Vue.js with Vue Router. I was using GitHub Pages for the previous site that only had static HTML/CSS, however there can be limitations when using Vue Router, especially when navigating backwards in the browser.
-
 ## Google Analytics Integration
 
 ### Setting up Google Analytics with Environment Variables
@@ -57,6 +39,24 @@ The `index.html` file has Google Analytics setup. The only thing missing is the 
        // Remaining tracking script...
      </script>
      ```
+
+## Project Setup and Running
+### Development Mode
+To run the project in development mode:
+```bash
+npm install
+npm run serve
+```
+### Production Build
+To package the project for production:
+```bash
+npm run build
+```
+
+This will generate a `dist` directory with static assets, which can be deployed on any web server.
+
+### Deployment
+This project is statically deployed using **NGINX**, which serves the `index.html` page and related assets. I choose NGINX since it can handle clean URL routing when using Vue.js with Vue Router. I was using GitHub Pages for the previous site that only had static HTML/CSS, however there can be limitations when using Vue Router, especially when navigating backwards in the browser.
 
 ## Vue documentation
 If you are curious and want more information on Vue.js, check out the [Vue.js Official Website](https://vuejs.org).
