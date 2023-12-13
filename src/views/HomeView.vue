@@ -10,13 +10,13 @@
 
     <p>In this day and age it's difficult to remember to stop and smell the roses. When I feel like I'm losing touch with
       what's important, I sit down at the piano and I watch to see what happens. Everything that I'm feeling flows through
-      me into the piano and music is created out of thin air.</p>
+      me into the piano and music is created.</p>
 
     <p>While composing I am in a place without time or mind. If I allow myself to think too much then the whole process
       breaks down and the music stops. A balance must be found between the mind and the heart so that everything flows
       smoothly.</p>
 
-    <p>I am very excited to be able to share this album titled "I Will Always Remember"! I started composing some of the
+    <p>I am very excited to be able to share the album titled <em>I Will Always Remember</em>. I started composing some of the
       songs when I was just 15 years old. Each and every song on this album is the culmination of years of work. Each and
       every song was created during an important event in my life that inspired the music.</p>
 
@@ -29,7 +29,7 @@
         href="https://music.apple.com/us/album/i-will-always-remember/435243973">iTunes</a> and <a
         href="https://open.spotify.com/album/18mNvmkOHA1Ykxt5PXHqXz">Spotify</a>.</p>
 
-    <p>So take a deep breath, and please enjoy the music!</p>
+    <p>So please take a deep breath, relax, and enjoy the music!</p>
 
   </div>
 </template>
