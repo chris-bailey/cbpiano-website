@@ -1,6 +1,6 @@
 # Chris Bailey - New Age Piano Website
 ## Overview
-This repository contains the source code for my [New Age Piano Website](https://chrisbaileypiano.com), developed using Vue.js 3.0.
+This repository contains the source code for my [New Age Piano Website](https://chrisbaileypiano.com), developed using **Vue.js 3.0**.
 
 The website was originally created with HTML/CSS and a bit of JavaScript. The way that Vue.js allows for components to be reused makes the website code much cleaner since you are no longer copying and pasting headers and footers into every single HTML file. 😅
 
