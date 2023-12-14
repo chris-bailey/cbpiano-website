@@ -23,8 +23,8 @@ Vue Router does the heavy lifting when it comes to page navigation without page 
 
 The `index.html` file has Google Analytics setup. The only thing missing is the tracking ID. You can add it as follows:
 
-1. **Create `.env.local` File**:
-   - In the project root, create a `.env.local` file.
+1. **Create `.env` File**:
+   - In the project root, create a `.env` file.
    - Add your Google Analytics ID:
      ```
      VUE_APP_GA_ID=YOUR_GOOGLE_ANALYTICS_ID
@@ -33,11 +33,15 @@ The `index.html` file has Google Analytics setup. The only thing missing is the 
 2. **Usage in `index.html`**:
    - Reference the ID in your `index.html`:
      ```html
-     <script>
-       var _gaq = _gaq || [];
-       _gaq.push(['_setAccount', process.env.VUE_APP_GA_ID]);
-       // Remaining tracking script...
-     </script>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.VUE_APP_GA_ID"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', process.env.VUE_APP_GA_ID);
+      </script>
      ```
 
 ## Project Setup and Running
